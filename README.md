@@ -4,3 +4,4 @@ Design Patterns:
 
 - Singleton
 - Factory
+- Memento
