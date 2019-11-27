@@ -1,4 +1,4 @@
-This is an application with examples of design patterns in C#
+This is a console application with examples of design patterns in C# (.Net Core 3.0)
 
 Design Patterns:
 
