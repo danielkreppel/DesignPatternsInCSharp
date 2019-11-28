@@ -1,0 +1,8 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\bin\Debug\netcoreapp3.0\Builder.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\bin\Debug\netcoreapp3.0\Builder.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\bin\Debug\netcoreapp3.0\Builder.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\obj\Debug\netcoreapp3.0\Builder.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\obj\Debug\netcoreapp3.0\Builder.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\obj\Debug\netcoreapp3.0\Builder.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\obj\Debug\netcoreapp3.0\Builder.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Builder\obj\Debug\netcoreapp3.0\Builder.pdb

@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "Builder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Builder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Builder.dll": {}
+        }
+      },
       "Factory/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -25,6 +35,11 @@
     }
   },
   "libraries": {
+    "Builder/1.0.0": {
+      "type": "project",
+      "path": "../Builder/Builder.csproj",
+      "msbuildProject": "../Builder/Builder.csproj"
+    },
     "Factory/1.0.0": {
       "type": "project",
       "path": "../Factory/Factory.csproj",
@@ -38,6 +53,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Builder >= 1.0.0",
       "Factory >= 1.0.0",
       "Memento >= 1.0.0"
     ]
@@ -74,6 +90,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj"
+            },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj"
             },
