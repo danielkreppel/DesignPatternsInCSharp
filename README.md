@@ -5,3 +5,4 @@ Design Patterns:
 - Singleton
 - Factory
 - Memento
+- Builder
