@@ -6,3 +6,4 @@ Design Patterns:
 - Factory
 - Memento
 - Builder
+- Prototype

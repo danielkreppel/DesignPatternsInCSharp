@@ -3,6 +3,8 @@ using Builder.Concrete;
 using Factory;
 using Factory.Abstract;
 using Memento;
+using PrototypeDesignPattern.Abstract;
+using PrototypeDesignPattern.Concrete;
 using System;
 
 namespace DesignPatternsInCSharp
@@ -15,16 +17,17 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("1 - Factory");
             Console.WriteLine("2 - Memento");
             Console.WriteLine("3 - Builder");
+            Console.WriteLine("4 - Prototype");
+            Console.WriteLine("5 - EXIT!");
 
-            Console.WriteLine("4 - EXIT!");
             string option = Console.ReadLine(); 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 4)
+
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 5)
             {
                 Console.WriteLine("Invalid option.");
 
                 option = Console.ReadLine();
             }
-
 
             switch (int.Parse(option))
             {
@@ -36,6 +39,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 3:
                     TestBuilderPattern();
+                    break;
+                case 4:
+                    TestPrototypePattern();
                     break;
                 default:
                     return;
@@ -99,6 +105,48 @@ namespace DesignPatternsInCSharp
 
             director.Construct(b2);
             Console.WriteLine(b2.GetProduct());
+
+            Console.ReadKey();
+        }
+
+        static void TestPrototypePattern()
+        {
+            var prototype = new ConcretePrototype1
+            {
+                Property1 = "A",
+                Property2 = "B",
+                PrototypeDetails = new PrototypeDetails { Details = "'prototype' details" }
+            };
+
+            //New instance using the prototype
+            var NewObject = prototype.Clone() as ConcretePrototype1;
+            //Without using Deep copy, the next line whould change the same PrototypeDetails instance 
+            //used in 'prototype' and 'NewObject', since both would be using the same reference to this object instance
+            NewObject.PrototypeDetails.Details = "New details for 'NewObject'";
+
+            Console.WriteLine(prototype);
+            Console.WriteLine(NewObject);
+            //OUTPUT
+            //Property1: A Property2:B PrototypeDetails:"'prototype' details"
+            //Property1: A Property2:B PrototypeDetails:"New details for 'NewObject'"
+
+            var prototype2 = new ConcretePrototype2
+            {
+                Property1 = "X",
+                Property2 = "Y",
+                OtherProperty = "Z",
+                PrototypeDetails = new PrototypeDetails { Details = "'prototype2' details" }
+            };
+
+            //New instance using the prototype2
+            var NewObject2 = prototype2.Clone() as ConcretePrototype2;
+            NewObject2.PrototypeDetails.Details = "New details for 'NewObject2'";
+
+            Console.WriteLine(prototype2);
+            Console.WriteLine(NewObject2);
+            //OUTPUT
+            //Property1: X Property2:Y PrototypeDetails:"'prototype2' details" OtherProperty: Z
+            //Property1:X Property2:Y PrototypeDetails:"New details for 'NewObject2'" OtherProperty: Z
 
             Console.ReadKey();
         }

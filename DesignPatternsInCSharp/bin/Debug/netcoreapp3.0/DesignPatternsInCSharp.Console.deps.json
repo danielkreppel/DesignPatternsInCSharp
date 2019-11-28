@@ -10,7 +10,8 @@
         "dependencies": {
           "Builder": "1.0.0",
           "Factory": "1.0.0",
-          "Memento": "1.0.0"
+          "Memento": "1.0.0",
+          "Prototype": "1.0.0"
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
@@ -29,6 +30,11 @@
       "Memento/1.0.0": {
         "runtime": {
           "Memento.dll": {}
+        }
+      },
+      "Prototype/1.0.0": {
+        "runtime": {
+          "Prototype.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "Memento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prototype/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

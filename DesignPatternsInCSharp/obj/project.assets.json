@@ -31,6 +31,16 @@
         "runtime": {
           "bin/placeholder/Memento.dll": {}
         }
+      },
+      "Prototype/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Prototype.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prototype.dll": {}
+        }
       }
     }
   },
@@ -49,13 +59,19 @@
       "type": "project",
       "path": "../Memento/Memento.csproj",
       "msbuildProject": "../Memento/Memento.csproj"
+    },
+    "Prototype/1.0.0": {
+      "type": "project",
+      "path": "../Prototype/Prototype.csproj",
+      "msbuildProject": "../Prototype/Prototype.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Builder >= 1.0.0",
       "Factory >= 1.0.0",
-      "Memento >= 1.0.0"
+      "Memento >= 1.0.0",
+      "Prototype >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -98,6 +114,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Prototype\\Prototype.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Prototype\\Prototype.csproj"
             }
           }
         }

@@ -16,3 +16,5 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatter
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Memento.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Builder.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Builder.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Prototype.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Prototype.pdb
