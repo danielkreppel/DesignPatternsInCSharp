@@ -7,3 +7,4 @@ Design Patterns:
 - Memento
 - Builder
 - Prototype
+- Adapter
