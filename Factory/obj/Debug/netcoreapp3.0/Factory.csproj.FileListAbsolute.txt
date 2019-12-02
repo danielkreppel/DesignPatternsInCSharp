@@ -1,7 +1,6 @@
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\bin\Debug\netcoreapp3.0\Factory.deps.json
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\bin\Debug\netcoreapp3.0\Factory.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\bin\Debug\netcoreapp3.0\Factory.pdb
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\obj\Debug\netcoreapp3.0\Factory.csprojAssemblyReference.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\obj\Debug\netcoreapp3.0\Factory.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\obj\Debug\netcoreapp3.0\Factory.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Factory\obj\Debug\netcoreapp3.0\Factory.dll

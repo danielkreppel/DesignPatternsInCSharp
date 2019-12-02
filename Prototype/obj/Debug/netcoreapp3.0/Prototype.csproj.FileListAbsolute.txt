@@ -1,4 +1,3 @@
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.csprojAssemblyReference.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\bin\Debug\netcoreapp3.0\Prototype.deps.json

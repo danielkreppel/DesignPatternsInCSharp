@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Adapter.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -45,6 +55,11 @@
     }
   },
   "libraries": {
+    "Adapter/1.0.0": {
+      "type": "project",
+      "path": "../Adapter/Adapter.csproj",
+      "msbuildProject": "../Adapter/Adapter.csproj"
+    },
     "Builder/1.0.0": {
       "type": "project",
       "path": "../Builder/Builder.csproj",
@@ -68,6 +83,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Adapter >= 1.0.0",
       "Builder >= 1.0.0",
       "Factory >= 1.0.0",
       "Memento >= 1.0.0",
@@ -106,6 +122,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Adapter\\Adapter.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Adapter\\Adapter.csproj"
+            },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj"
             },

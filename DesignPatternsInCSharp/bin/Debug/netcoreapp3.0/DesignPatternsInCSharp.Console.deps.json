@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.0": {
       "DesignPatternsInCSharp.Console/1.0.0": {
         "dependencies": {
+          "Adapter": "1.0.0",
           "Builder": "1.0.0",
           "Factory": "1.0.0",
           "Memento": "1.0.0",
@@ -15,6 +16,11 @@
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
+        }
+      },
+      "Adapter/1.0.0": {
+        "runtime": {
+          "Adapter.dll": {}
         }
       },
       "Builder/1.0.0": {
@@ -41,6 +47,11 @@
   },
   "libraries": {
     "DesignPatternsInCSharp.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Adapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

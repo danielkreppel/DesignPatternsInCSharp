@@ -1,4 +1,6 @@
-﻿using Builder.Abstract;
+﻿using AdapterPattern.Abstract;
+using AdapterPattern.Concrete;
+using Builder.Abstract;
 using Builder.Concrete;
 using Factory;
 using Factory.Abstract;
@@ -18,11 +20,12 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("2 - Memento");
             Console.WriteLine("3 - Builder");
             Console.WriteLine("4 - Prototype");
-            Console.WriteLine("5 - EXIT!");
+            Console.WriteLine("5 - Adapter");
+            Console.WriteLine("6 - EXIT!");
 
-            string option = Console.ReadLine(); 
+            string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 5)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 6)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -31,7 +34,7 @@ namespace DesignPatternsInCSharp
 
             switch (int.Parse(option))
             {
-                case 1: 
+                case 1:
                     TestFactoryPattern();
                     break;
                 case 2:
@@ -43,10 +46,13 @@ namespace DesignPatternsInCSharp
                 case 4:
                     TestPrototypePattern();
                     break;
+                case 5:
+                    TestAdapterPattern();
+                    break;
                 default:
                     return;
             }
-            
+
         }
 
         static void TestFactoryPattern()
@@ -147,6 +153,21 @@ namespace DesignPatternsInCSharp
             //OUTPUT
             //Property1: X Property2:Y PrototypeDetails:"'prototype2' details" OtherProperty: Z
             //Property1:X Property2:Y PrototypeDetails:"New details for 'NewObject2'" OtherProperty: Z
+
+            Console.ReadKey();
+        }
+
+        static void TestAdapterPattern()
+        {
+            ITarget t = new SomeTarget();
+            t.Request();
+            //OUTPUTS
+            //Request from SomeTarget
+
+            ITarget t2 = new Adapter();//<- Adapts the incompatible object so it can be used as ITarget
+            t2.Request();
+            //OUTPUTS
+            //Request from Adaptee
 
             Console.ReadKey();
         }
