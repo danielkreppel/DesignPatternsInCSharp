@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Adapter\Adapter.csproj" />
+    <ProjectReference Include="..\Bridge\Bridge.csproj" />
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Memento\Memento.csproj" />

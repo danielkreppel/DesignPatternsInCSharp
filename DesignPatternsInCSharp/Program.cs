@@ -1,5 +1,7 @@
 ﻿using AdapterPattern.Abstract;
 using AdapterPattern.Concrete;
+using Bridge.Abstract;
+using Bridge.Concrete;
 using Builder.Abstract;
 using Builder.Concrete;
 using Factory;
@@ -21,11 +23,12 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("3 - Builder");
             Console.WriteLine("4 - Prototype");
             Console.WriteLine("5 - Adapter");
-            Console.WriteLine("6 - EXIT!");
+            Console.WriteLine("6 - Bridge");
+            Console.WriteLine("7 - EXIT!");
 
             string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 6)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 7)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -48,6 +51,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 5:
                     TestAdapterPattern();
+                    break;
+                case 6:
+                    TestBridgePattern();
                     break;
                 default:
                     return;
@@ -168,6 +174,20 @@ namespace DesignPatternsInCSharp
             t2.Request();
             //OUTPUTS
             //Request from Adaptee
+
+            Console.ReadKey();
+        }
+
+        static void TestBridgePattern()
+        {
+            Abstraction abstraction = new DerivedAbstraction();
+            abstraction.Implementor = new ConcreteImplementorA();
+            abstraction.Operation();
+            //Outputs "Method called from ConcreteImplementorA"
+
+            abstraction.Implementor = new ConcreteImplementorB();
+            abstraction.Operation();
+            //Outputs "Method called from ConcreteImplementorB"
 
             Console.ReadKey();
         }

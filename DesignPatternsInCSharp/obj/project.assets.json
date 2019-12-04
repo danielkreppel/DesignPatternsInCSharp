@@ -12,6 +12,16 @@
           "bin/placeholder/Adapter.dll": {}
         }
       },
+      "Bridge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Bridge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bridge.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -60,6 +70,11 @@
       "path": "../Adapter/Adapter.csproj",
       "msbuildProject": "../Adapter/Adapter.csproj"
     },
+    "Bridge/1.0.0": {
+      "type": "project",
+      "path": "../Bridge/Bridge.csproj",
+      "msbuildProject": "../Bridge/Bridge.csproj"
+    },
     "Builder/1.0.0": {
       "type": "project",
       "path": "../Builder/Builder.csproj",
@@ -84,6 +99,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Adapter >= 1.0.0",
+      "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
       "Factory >= 1.0.0",
       "Memento >= 1.0.0",
@@ -124,6 +140,9 @@
           "projectReferences": {
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Adapter\\Adapter.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Adapter\\Adapter.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Bridge\\Bridge.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Bridge\\Bridge.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj"

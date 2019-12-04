@@ -9,6 +9,7 @@
       "DesignPatternsInCSharp.Console/1.0.0": {
         "dependencies": {
           "Adapter": "1.0.0",
+          "Bridge": "1.0.0",
           "Builder": "1.0.0",
           "Factory": "1.0.0",
           "Memento": "1.0.0",
@@ -21,6 +22,11 @@
       "Adapter/1.0.0": {
         "runtime": {
           "Adapter.dll": {}
+        }
+      },
+      "Bridge/1.0.0": {
+        "runtime": {
+          "Bridge.dll": {}
         }
       },
       "Builder/1.0.0": {
@@ -52,6 +58,11 @@
       "sha512": ""
     },
     "Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bridge/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
