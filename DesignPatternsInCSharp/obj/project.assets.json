@@ -32,6 +32,16 @@
           "bin/placeholder/Builder.dll": {}
         }
       },
+      "Composite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Composite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Composite.dll": {}
+        }
+      },
       "Factory/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -80,6 +90,11 @@
       "path": "../Builder/Builder.csproj",
       "msbuildProject": "../Builder/Builder.csproj"
     },
+    "Composite/1.0.0": {
+      "type": "project",
+      "path": "../Composite/Composite.csproj",
+      "msbuildProject": "../Composite/Composite.csproj"
+    },
     "Factory/1.0.0": {
       "type": "project",
       "path": "../Factory/Factory.csproj",
@@ -101,6 +116,7 @@
       "Adapter >= 1.0.0",
       "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
+      "Composite >= 1.0.0",
       "Factory >= 1.0.0",
       "Memento >= 1.0.0",
       "Prototype >= 1.0.0"
@@ -146,6 +162,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj"

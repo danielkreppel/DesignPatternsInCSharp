@@ -1,9 +1,9 @@
 ﻿using AdapterPattern.Abstract;
 using AdapterPattern.Concrete;
-using Bridge.Abstract;
 using Bridge.Concrete;
 using Builder.Abstract;
 using Builder.Concrete;
+using CompositePattern.Concrete;
 using Factory;
 using Factory.Abstract;
 using Memento;
@@ -24,11 +24,12 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("4 - Prototype");
             Console.WriteLine("5 - Adapter");
             Console.WriteLine("6 - Bridge");
-            Console.WriteLine("7 - EXIT!");
+            Console.WriteLine("7 - Bridge");
+            Console.WriteLine("8 - EXIT!");
 
             string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 7)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 8)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -54,6 +55,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 6:
                     TestBridgePattern();
+                    break;
+                case 7:
+                    TestCompositePattern();
                     break;
                 default:
                     return;
@@ -188,6 +192,29 @@ namespace DesignPatternsInCSharp
             abstraction.Implementor = new ConcreteImplementorB();
             abstraction.Operation();
             //Outputs "Method called from ConcreteImplementorB"
+
+            Console.ReadKey();
+        }
+
+        static void TestCompositePattern()
+        {
+            Composite composite = new Composite("First");
+            composite.Add(new Composite("Second"));
+            composite.Add(new Composite("Third"));
+            Composite composite1 = new Composite("Forth");
+            composite1.Add(new Composite("Fifth"));
+            composite1.Add(new Composite("Sixth"));
+            composite.Add(composite1);
+
+            composite.DisplayAll();
+            //Will output the Composite name and its 
+            //chidrens names (hierarchically) in a recursive way:
+            //> - First
+            //>> - Second
+            //>> - Third
+            //>> - Forth
+            //>>> - Fifth
+            //>>> - Sixth
 
             Console.ReadKey();
         }
