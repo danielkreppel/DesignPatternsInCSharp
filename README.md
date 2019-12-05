@@ -9,3 +9,4 @@ Design Patterns:
 - Prototype
 - Adapter
 - Bridge
+- Composite
