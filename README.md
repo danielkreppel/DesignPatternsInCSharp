@@ -10,3 +10,4 @@ Design Patterns:
 - Adapter
 - Bridge
 - Composite
+- Decorator
