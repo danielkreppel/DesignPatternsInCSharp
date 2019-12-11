@@ -4,6 +4,7 @@ using Bridge.Concrete;
 using Builder.Abstract;
 using Builder.Concrete;
 using CompositePattern.Concrete;
+using DecoratorDesignPattern.Concrete;
 using Factory;
 using Factory.Abstract;
 using Memento;
@@ -24,12 +25,13 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("4 - Prototype");
             Console.WriteLine("5 - Adapter");
             Console.WriteLine("6 - Bridge");
-            Console.WriteLine("7 - Bridge");
-            Console.WriteLine("8 - EXIT!");
+            Console.WriteLine("7 - Composite");
+            Console.WriteLine("8 - Decorator");
+            Console.WriteLine("9 - EXIT!");
 
             string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 8)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 9)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -58,6 +60,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 7:
                     TestCompositePattern();
+                    break;
+                case 8:
+                    TestDecoratorPattern();
                     break;
                 default:
                     return;
@@ -215,6 +220,30 @@ namespace DesignPatternsInCSharp
             //>> - Forth
             //>>> - Fifth
             //>>> - Sixth
+
+            Console.ReadKey();
+        }
+
+        static void TestDecoratorPattern()
+        {
+            ConcreteComponent comp = new ConcreteComponent();
+            ConcreteDecoratorA d1 = new ConcreteDecoratorA(comp);
+            ConcreteDecoratorB d2 = new ConcreteDecoratorB(d1);
+
+            comp.Operation();
+            //Output:
+            //Operation from ConcreteComponent
+
+            d1.Operation();
+            //Output:
+            //Operation from ConcreteComponent
+            //(AddedBehaviour A) + Operation from ConcreteDecoratorA
+
+            d2.Operation();
+            //Output:
+            //Operation from ConcreteComponent
+            //(AddedBehaviour A) + Operation from ConcreteDecoratorA
+            //(AddedBehaviour B) + Operation from ConcreteDecoratorB
 
             Console.ReadKey();
         }
