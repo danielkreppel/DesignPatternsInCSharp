@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\bin\Debug\netcoreapp3.0\Facade.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\bin\Debug\netcoreapp3.0\Facade.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\bin\Debug\netcoreapp3.0\Facade.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\obj\Debug\netcoreapp3.0\Facade.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\obj\Debug\netcoreapp3.0\Facade.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\obj\Debug\netcoreapp3.0\Facade.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Facade\obj\Debug\netcoreapp3.0\Facade.pdb

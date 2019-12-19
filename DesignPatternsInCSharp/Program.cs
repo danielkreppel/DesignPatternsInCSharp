@@ -5,6 +5,7 @@ using Builder.Abstract;
 using Builder.Concrete;
 using CompositePattern.Concrete;
 using DecoratorDesignPattern.Concrete;
+using FacadeDesignPattern;
 using Factory;
 using Factory.Abstract;
 using Memento;
@@ -27,11 +28,12 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("6 - Bridge");
             Console.WriteLine("7 - Composite");
             Console.WriteLine("8 - Decorator");
-            Console.WriteLine("9 - EXIT!");
+            Console.WriteLine("9 - Facade");
+            Console.WriteLine("10 - EXIT!");
 
             string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 9)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 10)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -63,6 +65,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 8:
                     TestDecoratorPattern();
+                    break;
+                case 9:
+                    TestFacadePattern();
                     break;
                 default:
                     return;
@@ -248,5 +253,16 @@ namespace DesignPatternsInCSharp
             Console.ReadKey();
         }
 
+        static void TestFacadePattern()
+        {
+            Facade facade = new Facade();
+            facade.CallOperationsUnified();
+            //Output:
+            //Operation from ClassOne
+            //Operation from ClassTwo
+            //Operation from ClassThree
+
+            Console.ReadKey();
+        }
     }
 }
