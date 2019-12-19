@@ -11,3 +11,4 @@ Design Patterns:
 - Bridge
 - Composite
 - Decorator
+- Facade
