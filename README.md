@@ -12,3 +12,4 @@ Design Patterns:
 - Composite
 - Decorator
 - Facade
+- Proxy
