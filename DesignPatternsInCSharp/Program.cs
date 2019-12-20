@@ -11,6 +11,8 @@ using Factory.Abstract;
 using Memento;
 using PrototypeDesignPattern.Abstract;
 using PrototypeDesignPattern.Concrete;
+using Proxy.Abstract;
+using Proxy.Concrete;
 using System;
 
 namespace DesignPatternsInCSharp
@@ -29,11 +31,12 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("7 - Composite");
             Console.WriteLine("8 - Decorator");
             Console.WriteLine("9 - Facade");
-            Console.WriteLine("10 - EXIT!");
+            Console.WriteLine("10 - Proxy");
+            Console.WriteLine("11 - EXIT!");
 
             string option = Console.ReadLine();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 10)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 11)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -68,6 +71,9 @@ namespace DesignPatternsInCSharp
                     break;
                 case 9:
                     TestFacadePattern();
+                    break;
+                case 10:
+                    TestProxyPattern();
                     break;
                 default:
                     return;
@@ -261,6 +267,14 @@ namespace DesignPatternsInCSharp
             //Operation from ClassOne
             //Operation from ClassTwo
             //Operation from ClassThree
+
+            Console.ReadKey();
+        }
+
+        static void TestProxyPattern()
+        {
+            ISubject subject = new ProxySubject();
+            subject.Request();
 
             Console.ReadKey();
         }

@@ -28,3 +28,5 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatter
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Decorator.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Facade.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Facade.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Proxy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Proxy.pdb

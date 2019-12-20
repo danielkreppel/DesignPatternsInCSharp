@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\bin\Debug\netcoreapp3.0\Proxy.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\bin\Debug\netcoreapp3.0\Proxy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\bin\Debug\netcoreapp3.0\Proxy.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\obj\Debug\netcoreapp3.0\Proxy.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\obj\Debug\netcoreapp3.0\Proxy.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\obj\Debug\netcoreapp3.0\Proxy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Proxy\obj\Debug\netcoreapp3.0\Proxy.pdb

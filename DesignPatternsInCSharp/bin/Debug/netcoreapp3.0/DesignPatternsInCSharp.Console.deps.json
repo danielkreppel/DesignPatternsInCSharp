@@ -16,7 +16,8 @@
           "Facade": "1.0.0",
           "Factory": "1.0.0",
           "Memento": "1.0.0",
-          "Prototype": "1.0.0"
+          "Prototype": "1.0.0",
+          "Proxy": "1.0.0"
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
@@ -65,6 +66,11 @@
       "Prototype/1.0.0": {
         "runtime": {
           "Prototype.dll": {}
+        }
+      },
+      "Proxy/1.0.0": {
+        "runtime": {
+          "Proxy.dll": {}
         }
       }
     }
@@ -116,6 +122,11 @@
       "sha512": ""
     },
     "Prototype/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proxy/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
