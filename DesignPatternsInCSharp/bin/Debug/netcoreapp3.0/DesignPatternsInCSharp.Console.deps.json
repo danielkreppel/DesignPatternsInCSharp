@@ -11,6 +11,7 @@
           "Adapter": "1.0.0",
           "Bridge": "1.0.0",
           "Builder": "1.0.0",
+          "ChainOfResponsibility": "1.0.0",
           "Composite": "1.0.0",
           "Decorator": "1.0.0",
           "Facade": "1.0.0",
@@ -36,6 +37,11 @@
       "Builder/1.0.0": {
         "runtime": {
           "Builder.dll": {}
+        }
+      },
+      "ChainOfResponsibility/1.0.0": {
+        "runtime": {
+          "ChainOfResponsibility.dll": {}
         }
       },
       "Composite/1.0.0": {
@@ -92,6 +98,11 @@
       "sha512": ""
     },
     "Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChainOfResponsibility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

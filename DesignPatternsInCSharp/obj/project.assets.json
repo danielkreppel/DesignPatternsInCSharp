@@ -32,6 +32,16 @@
           "bin/placeholder/Builder.dll": {}
         }
       },
+      "ChainOfResponsibility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/ChainOfResponsibility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChainOfResponsibility.dll": {}
+        }
+      },
       "Composite/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -120,6 +130,11 @@
       "path": "../Builder/Builder.csproj",
       "msbuildProject": "../Builder/Builder.csproj"
     },
+    "ChainOfResponsibility/1.0.0": {
+      "type": "project",
+      "path": "../ChainOfResponsibility/ChainOfResponsibility.csproj",
+      "msbuildProject": "../ChainOfResponsibility/ChainOfResponsibility.csproj"
+    },
     "Composite/1.0.0": {
       "type": "project",
       "path": "../Composite/Composite.csproj",
@@ -161,6 +176,7 @@
       "Adapter >= 1.0.0",
       "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
+      "ChainOfResponsibility >= 1.0.0",
       "Composite >= 1.0.0",
       "Decorator >= 1.0.0",
       "Facade >= 1.0.0",
@@ -210,6 +226,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Builder\\Builder.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\ChainOfResponsibility\\ChainOfResponsibility.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\ChainOfResponsibility\\ChainOfResponsibility.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj"

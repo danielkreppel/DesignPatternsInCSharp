@@ -13,6 +13,8 @@ using PrototypeDesignPattern.Abstract;
 using PrototypeDesignPattern.Concrete;
 using Proxy.Abstract;
 using Proxy.Concrete;
+using ChainOfResponsibility.Abstract;
+using ChainOfResponsibility.Concrete;
 using System;
 
 namespace DesignPatternsInCSharp
@@ -20,6 +22,39 @@ namespace DesignPatternsInCSharp
     class Program
     {
         static void Main(string[] args)
+        {
+            System.AppDomain.CurrentDomain.UnhandledException += UnhandledExceptionTrapper;
+
+            string option = ChooseDesignPattern();
+
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 12)
+            {
+                Console.WriteLine("Invalid option.");
+
+                option = Console.ReadLine();
+            }
+
+            var success = option switch
+            {
+            "1" => TestFactoryPattern(),
+            "2" => TestMementoPattern(),
+            "3" => TestBuilderPattern(),
+            "4" => TestPrototypePattern(), 
+            "5" => TestAdapterPattern(),
+            "6" => TestBridgePattern(),
+            "7" => TestCompositePattern(),
+            "8" => TestDecoratorPattern(),
+            "9" => TestFacadePattern(),
+            "10" => TestProxyPattern(),
+            "11" => TestChainOfResponsibility(),
+               _ => false,
+            };
+
+            Console.ReadKey();
+
+        }
+
+        static string ChooseDesignPattern()
         {
             Console.WriteLine("Choose a Design Pattern to test:");
             Console.WriteLine("1 - Factory");
@@ -32,56 +67,22 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("8 - Decorator");
             Console.WriteLine("9 - Facade");
             Console.WriteLine("10 - Proxy");
-            Console.WriteLine("11 - EXIT!");
+            Console.WriteLine("11 - Chain of Responsibility");
+            Console.WriteLine("12 - EXIT!");
 
-            string option = Console.ReadLine();
-
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 11)
-            {
-                Console.WriteLine("Invalid option.");
-
-                option = Console.ReadLine();
-            }
-
-            switch (int.Parse(option))
-            {
-                case 1:
-                    TestFactoryPattern();
-                    break;
-                case 2:
-                    TestMementoPattern();
-                    break;
-                case 3:
-                    TestBuilderPattern();
-                    break;
-                case 4:
-                    TestPrototypePattern();
-                    break;
-                case 5:
-                    TestAdapterPattern();
-                    break;
-                case 6:
-                    TestBridgePattern();
-                    break;
-                case 7:
-                    TestCompositePattern();
-                    break;
-                case 8:
-                    TestDecoratorPattern();
-                    break;
-                case 9:
-                    TestFacadePattern();
-                    break;
-                case 10:
-                    TestProxyPattern();
-                    break;
-                default:
-                    return;
-            }
-
+            return Console.ReadLine();
         }
 
-        static void TestFactoryPattern()
+        static void UnhandledExceptionTrapper(object sender, UnhandledExceptionEventArgs e)
+        {
+            Console.WriteLine("An error ocurred during execution:");
+            Console.WriteLine(e.ExceptionObject.ToString());
+            Console.WriteLine("Press Enter to continue");
+            Console.ReadLine();
+            Environment.Exit(1);
+        }
+
+        static bool TestFactoryPattern()
         {
             Console.WriteLine("TESTING THE FACTORY DESIGN PATTERN: ");
 
@@ -95,10 +96,10 @@ namespace DesignPatternsInCSharp
 
             middleware.DoAction();
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestMementoPattern()
+        static bool TestMementoPattern()
         {
             Console.WriteLine("TESTING THE MEMENTO DESIGN PATTERN: ");
 
@@ -120,10 +121,10 @@ namespace DesignPatternsInCSharp
             CareTaker<StateObject>.RestoreState(current, 0);
             current.ShowState();
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestBuilderPattern()
+        static bool TestBuilderPattern()
         {
             Console.WriteLine("TESTING THE BUILDER DESIGN PATTERN: ");
 
@@ -138,11 +139,13 @@ namespace DesignPatternsInCSharp
             director.Construct(b2);
             Console.WriteLine(b2.GetProduct());
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestPrototypePattern()
+        static bool TestPrototypePattern()
         {
+            Console.WriteLine("TESTING THE PROTOTYPE PATTERN: ");
+
             var prototype = new ConcretePrototype1
             {
                 Property1 = "A",
@@ -180,11 +183,13 @@ namespace DesignPatternsInCSharp
             //Property1: X Property2:Y PrototypeDetails:"'prototype2' details" OtherProperty: Z
             //Property1:X Property2:Y PrototypeDetails:"New details for 'NewObject2'" OtherProperty: Z
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestAdapterPattern()
+        static bool TestAdapterPattern()
         {
+            Console.WriteLine("TESTING THE ADAPTER DESIGN PATTERN: ");
+
             ITarget t = new SomeTarget();
             t.Request();
             //OUTPUTS
@@ -195,11 +200,13 @@ namespace DesignPatternsInCSharp
             //OUTPUTS
             //Request from Adaptee
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestBridgePattern()
+        static bool TestBridgePattern()
         {
+            Console.WriteLine("TESTING THE BRIDGE DESIGN PATTERN: ");
+
             Abstraction abstraction = new DerivedAbstraction();
             abstraction.Implementor = new ConcreteImplementorA();
             abstraction.Operation();
@@ -209,11 +216,13 @@ namespace DesignPatternsInCSharp
             abstraction.Operation();
             //Outputs "Method called from ConcreteImplementorB"
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestCompositePattern()
+        static bool TestCompositePattern()
         {
+            Console.WriteLine("TESTING THE COMPOSITE DESIGN PATTERN: ");
+
             Composite composite = new Composite("First");
             composite.Add(new Composite("Second"));
             composite.Add(new Composite("Third"));
@@ -232,11 +241,13 @@ namespace DesignPatternsInCSharp
             //>>> - Fifth
             //>>> - Sixth
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestDecoratorPattern()
+        static bool TestDecoratorPattern()
         {
+            Console.WriteLine("TESTING THE DECORATOR DESIGN PATTERN: ");
+
             ConcreteComponent comp = new ConcreteComponent();
             ConcreteDecoratorA d1 = new ConcreteDecoratorA(comp);
             ConcreteDecoratorB d2 = new ConcreteDecoratorB(d1);
@@ -256,11 +267,13 @@ namespace DesignPatternsInCSharp
             //(AddedBehaviour A) + Operation from ConcreteDecoratorA
             //(AddedBehaviour B) + Operation from ConcreteDecoratorB
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestFacadePattern()
+        static bool TestFacadePattern()
         {
+            Console.WriteLine("TESTING THE FACADE DESIGN PATTERN: ");
+
             Facade facade = new Facade();
             facade.CallOperationsUnified();
             //Output:
@@ -268,15 +281,47 @@ namespace DesignPatternsInCSharp
             //Operation from ClassTwo
             //Operation from ClassThree
 
-            Console.ReadKey();
+            return true;
         }
 
-        static void TestProxyPattern()
+        static bool TestProxyPattern()
         {
+            Console.WriteLine("TESTING THE PROXY DESIGN PATTERN: ");
+
             ISubject subject = new ProxySubject();
             subject.Request();
 
-            Console.ReadKey();
+            return true;
         }
+
+        static bool TestChainOfResponsibility()
+        {
+            ChainHandler h1 = new ConcreteHandler("Handler 1");
+            h1.Condition = (value) => value >= 0 && value < 5;
+
+            ChainHandler h2 = new ConcreteHandler("Handler 2");
+            h2.Condition = (value) => value >= 5 && value < 10;
+
+            ChainHandler h3 = new ConcreteHandler("Handler 3");
+            h3.Condition = (value) => value >= 10 && value < 15;
+
+            h1.Successor = h2;
+            h2.Successor = h3;
+
+
+            foreach (var i in new int[] { 3, 4, 6, 11, 12 })
+                h1.HandleRequest(i);
+
+            //Output
+            //Handler 1 handled the value 3
+            //Handler 1 handled the value 4
+            //Handler 2 handled the value 6
+            //Handler 3 handled the value 11
+            //Handler 3 handled the value 12
+
+            return true;
+        }
+
+        
     }
 }

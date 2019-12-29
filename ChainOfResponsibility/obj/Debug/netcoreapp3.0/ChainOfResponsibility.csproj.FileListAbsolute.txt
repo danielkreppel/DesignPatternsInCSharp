@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\bin\Debug\netcoreapp3.0\ChainOfResponsibility.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\bin\Debug\netcoreapp3.0\ChainOfResponsibility.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\bin\Debug\netcoreapp3.0\ChainOfResponsibility.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.pdb
