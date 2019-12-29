@@ -13,3 +13,4 @@ Design Patterns:
 - Decorator
 - Facade
 - Proxy
+- Chain of Responsibility
