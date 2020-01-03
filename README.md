@@ -14,3 +14,4 @@ Design Patterns:
 - Facade
 - Proxy
 - Chain of Responsibility
+- Command
