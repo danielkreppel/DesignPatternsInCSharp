@@ -16,6 +16,8 @@ using Proxy.Concrete;
 using ChainOfResponsibility.Abstract;
 using ChainOfResponsibility.Concrete;
 using System;
+using CommandPattern.Concrete;
+using CommandPattern.Abstract;
 
 namespace DesignPatternsInCSharp
 {
@@ -27,7 +29,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 12)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 13)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -47,7 +49,8 @@ namespace DesignPatternsInCSharp
             "9" => TestFacadePattern(),
             "10" => TestProxyPattern(),
             "11" => TestChainOfResponsibility(),
-               _ => false,
+            "12" => TestCommandPattern(),
+                _ => false,
             };
 
             Console.ReadKey();
@@ -68,7 +71,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("9 - Facade");
             Console.WriteLine("10 - Proxy");
             Console.WriteLine("11 - Chain of Responsibility");
-            Console.WriteLine("12 - EXIT!");
+            Console.WriteLine("12 - Command");
+            Console.WriteLine("13 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -296,6 +300,8 @@ namespace DesignPatternsInCSharp
 
         static bool TestChainOfResponsibility()
         {
+            Console.WriteLine("TESTING THE CHAIN OF RESPONSIBILITY DESIGN PATTERN: ");
+
             ChainHandler h1 = new ConcreteHandler("Handler 1");
             h1.Condition = (value) => value >= 0 && value < 5;
 
@@ -322,6 +328,19 @@ namespace DesignPatternsInCSharp
             return true;
         }
 
-        
+        public static bool TestCommandPattern()
+        {
+            Console.WriteLine("TESTING THE COMMAND DESIGN PATTERN: ");
+
+            Receiver r = new Receiver();
+            Command c = new ConcreteCommand(r);
+            Invoker invoker = new Invoker(c);
+            invoker.ExecuteCommand();
+            //Output
+            //Called Receiver.Action()
+
+            return true;
+        }
+
     }
 }

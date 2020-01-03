@@ -42,6 +42,16 @@
           "bin/placeholder/ChainOfResponsibility.dll": {}
         }
       },
+      "Command/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Command.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Command.dll": {}
+        }
+      },
       "Composite/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -135,6 +145,11 @@
       "path": "../ChainOfResponsibility/ChainOfResponsibility.csproj",
       "msbuildProject": "../ChainOfResponsibility/ChainOfResponsibility.csproj"
     },
+    "Command/1.0.0": {
+      "type": "project",
+      "path": "../Command/Command.csproj",
+      "msbuildProject": "../Command/Command.csproj"
+    },
     "Composite/1.0.0": {
       "type": "project",
       "path": "../Composite/Composite.csproj",
@@ -177,6 +192,7 @@
       "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
       "ChainOfResponsibility >= 1.0.0",
+      "Command >= 1.0.0",
       "Composite >= 1.0.0",
       "Decorator >= 1.0.0",
       "Facade >= 1.0.0",
@@ -229,6 +245,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\ChainOfResponsibility\\ChainOfResponsibility.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\ChainOfResponsibility\\ChainOfResponsibility.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Command\\Command.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Command\\Command.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Composite\\Composite.csproj"

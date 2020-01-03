@@ -1,7 +1,6 @@
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\bin\Debug\netcoreapp3.0\Singleton.deps.json
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\bin\Debug\netcoreapp3.0\Singleton.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\bin\Debug\netcoreapp3.0\Singleton.pdb
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\obj\Debug\netcoreapp3.0\Singleton.csprojAssemblyReference.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\obj\Debug\netcoreapp3.0\Singleton.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\obj\Debug\netcoreapp3.0\Singleton.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Singleton\obj\Debug\netcoreapp3.0\Singleton.dll

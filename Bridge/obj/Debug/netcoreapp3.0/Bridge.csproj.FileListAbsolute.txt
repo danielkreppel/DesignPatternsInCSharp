@@ -1,7 +1,6 @@
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\bin\Debug\netcoreapp3.0\Bridge.deps.json
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\bin\Debug\netcoreapp3.0\Bridge.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\bin\Debug\netcoreapp3.0\Bridge.pdb
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\obj\Debug\netcoreapp3.0\Bridge.csprojAssemblyReference.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\obj\Debug\netcoreapp3.0\Bridge.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\obj\Debug\netcoreapp3.0\Bridge.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Bridge\obj\Debug\netcoreapp3.0\Bridge.dll
