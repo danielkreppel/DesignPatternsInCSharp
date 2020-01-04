@@ -15,3 +15,4 @@ Design Patterns:
 - Proxy
 - Chain of Responsibility
 - Command
+- Iterator
