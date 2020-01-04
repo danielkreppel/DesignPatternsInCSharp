@@ -5,3 +5,4 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Memento\obj\
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Memento\obj\Debug\netcoreapp3.0\Memento.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Memento\obj\Debug\netcoreapp3.0\Memento.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Memento\obj\Debug\netcoreapp3.0\Memento.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Memento\obj\Debug\netcoreapp3.0\Memento.csprojAssemblyReference.cache

@@ -5,3 +5,4 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfRespo
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\ChainOfResponsibility\obj\Debug\netcoreapp3.0\ChainOfResponsibility.csprojAssemblyReference.cache

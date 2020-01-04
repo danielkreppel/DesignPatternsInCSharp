@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\bin\Debug\netcoreapp3.0\Iterator.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\bin\Debug\netcoreapp3.0\Iterator.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\bin\Debug\netcoreapp3.0\Iterator.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\obj\Debug\netcoreapp3.0\Iterator.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\obj\Debug\netcoreapp3.0\Iterator.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\obj\Debug\netcoreapp3.0\Iterator.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Iterator\obj\Debug\netcoreapp3.0\Iterator.pdb

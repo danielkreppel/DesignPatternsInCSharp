@@ -92,6 +92,16 @@
           "bin/placeholder/Factory.dll": {}
         }
       },
+      "Iterator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Iterator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Iterator.dll": {}
+        }
+      },
       "Memento/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -170,6 +180,11 @@
       "path": "../Factory/Factory.csproj",
       "msbuildProject": "../Factory/Factory.csproj"
     },
+    "Iterator/1.0.0": {
+      "type": "project",
+      "path": "../Iterator/Iterator.csproj",
+      "msbuildProject": "../Iterator/Iterator.csproj"
+    },
     "Memento/1.0.0": {
       "type": "project",
       "path": "../Memento/Memento.csproj",
@@ -197,6 +212,7 @@
       "Decorator >= 1.0.0",
       "Facade >= 1.0.0",
       "Factory >= 1.0.0",
+      "Iterator >= 1.0.0",
       "Memento >= 1.0.0",
       "Prototype >= 1.0.0",
       "Proxy >= 1.0.0"
@@ -260,6 +276,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Factory\\Factory.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Iterator\\Iterator.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Iterator\\Iterator.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj"

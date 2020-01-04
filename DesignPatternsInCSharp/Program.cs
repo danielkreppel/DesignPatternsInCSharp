@@ -18,6 +18,7 @@ using ChainOfResponsibility.Concrete;
 using System;
 using CommandPattern.Concrete;
 using CommandPattern.Abstract;
+using IteratorPattern.Concrete;
 
 namespace DesignPatternsInCSharp
 {
@@ -29,7 +30,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 13)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 14)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -38,19 +39,20 @@ namespace DesignPatternsInCSharp
 
             var success = option switch
             {
-            "1" => TestFactoryPattern(),
-            "2" => TestMementoPattern(),
-            "3" => TestBuilderPattern(),
-            "4" => TestPrototypePattern(), 
-            "5" => TestAdapterPattern(),
-            "6" => TestBridgePattern(),
-            "7" => TestCompositePattern(),
-            "8" => TestDecoratorPattern(),
-            "9" => TestFacadePattern(),
-            "10" => TestProxyPattern(),
-            "11" => TestChainOfResponsibility(),
-            "12" => TestCommandPattern(),
-                _ => false,
+                "1" => TestFactoryPattern(),
+                "2" => TestMementoPattern(),
+                "3" => TestBuilderPattern(),
+                "4" => TestPrototypePattern(), 
+                "5" => TestAdapterPattern(),
+                "6" => TestBridgePattern(),
+                "7" => TestCompositePattern(),
+                "8" => TestDecoratorPattern(),
+                "9" => TestFacadePattern(),
+                "10" => TestProxyPattern(),
+                "11" => TestChainOfResponsibility(),
+                "12" => TestCommandPattern(),
+                "13" => TestIteratorPattern(),
+                   _ => false,
             };
 
             Console.ReadKey();
@@ -72,7 +74,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("10 - Proxy");
             Console.WriteLine("11 - Chain of Responsibility");
             Console.WriteLine("12 - Command");
-            Console.WriteLine("13 - EXIT!");
+            Console.WriteLine("13 - Iterator");
+            Console.WriteLine("14 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -338,6 +341,34 @@ namespace DesignPatternsInCSharp
             invoker.ExecuteCommand();
             //Output
             //Called Receiver.Action()
+
+            return true;
+        }
+
+        public static bool TestIteratorPattern()
+        {
+            Console.WriteLine("TESTING THE ITERATOR DESIGN PATTERN: ");
+
+            //Setting the concrete Iterator class for the generic Aggregate instance 
+            Aggregate<Iterator> ag = new Aggregate<Iterator>();
+            ag[0] = "A";
+            ag[1] = "B";
+            ag[2] = "C";
+
+            //Creating the Iterator based on the Aggregate instance
+            Iterator it = ag.CreateIterator() as Iterator;
+
+            //Tracking all items through the Iterator
+            object item = it.First();
+            while (item != null)
+            {
+                Console.WriteLine(item);
+                item = it.Next();
+            }
+            //Output:
+            //A
+            //B
+            //C
 
             return true;
         }

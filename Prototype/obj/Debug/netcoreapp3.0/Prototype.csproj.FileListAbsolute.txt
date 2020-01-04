@@ -5,4 +5,3 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\bi
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\bin\Debug\netcoreapp3.0\Prototype.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.pdb
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Prototype\obj\Debug\netcoreapp3.0\Prototype.csprojAssemblyReference.cache
