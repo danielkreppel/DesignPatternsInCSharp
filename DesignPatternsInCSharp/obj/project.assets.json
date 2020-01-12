@@ -102,6 +102,16 @@
           "bin/placeholder/Iterator.dll": {}
         }
       },
+      "Mediator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Mediator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mediator.dll": {}
+        }
+      },
       "Memento/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -185,6 +195,11 @@
       "path": "../Iterator/Iterator.csproj",
       "msbuildProject": "../Iterator/Iterator.csproj"
     },
+    "Mediator/1.0.0": {
+      "type": "project",
+      "path": "../Mediator/Mediator.csproj",
+      "msbuildProject": "../Mediator/Mediator.csproj"
+    },
     "Memento/1.0.0": {
       "type": "project",
       "path": "../Memento/Memento.csproj",
@@ -213,6 +228,7 @@
       "Facade >= 1.0.0",
       "Factory >= 1.0.0",
       "Iterator >= 1.0.0",
+      "Mediator >= 1.0.0",
       "Memento >= 1.0.0",
       "Prototype >= 1.0.0",
       "Proxy >= 1.0.0"
@@ -279,6 +295,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Iterator\\Iterator.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Iterator\\Iterator.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Mediator\\Mediator.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Mediator\\Mediator.csproj"
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Memento\\Memento.csproj"

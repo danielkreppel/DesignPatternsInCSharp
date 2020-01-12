@@ -19,6 +19,8 @@ using System;
 using CommandPattern.Concrete;
 using CommandPattern.Abstract;
 using IteratorPattern.Concrete;
+using MediatorPattern.Abstract;
+using MediatorPattern.Concrete;
 
 namespace DesignPatternsInCSharp
 {
@@ -30,7 +32,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 14)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 15)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -52,6 +54,7 @@ namespace DesignPatternsInCSharp
                 "11" => TestChainOfResponsibility(),
                 "12" => TestCommandPattern(),
                 "13" => TestIteratorPattern(),
+                "14" => TestMediatorPattern(),
                    _ => false,
             };
 
@@ -75,7 +78,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("11 - Chain of Responsibility");
             Console.WriteLine("12 - Command");
             Console.WriteLine("13 - Iterator");
-            Console.WriteLine("14 - EXIT!");
+            Console.WriteLine("14 - Mediator");
+            Console.WriteLine("15 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -369,6 +373,29 @@ namespace DesignPatternsInCSharp
             //A
             //B
             //C
+
+            return true;
+        }
+
+        public static bool TestMediatorPattern()
+        {
+            Console.WriteLine("TESTING THE MEDIATOR DESIGN PATTERN: ");
+
+            Participant<string> p1 = new ConcreteParticipant<string>("p1");
+            Participant<string> p2 = new ConcreteParticipant<string>("p2");
+            Participant<string> p3 = new ConcreteParticipant<string>("p3");
+
+            Mediator<string> m = new ConcreteMediator<string>();
+            m.Register(p1);
+            m.Register(p2);
+            m.Register(p3);
+
+            p1.SendMessage(m, "Message from p1");
+            //Output
+            //p2 received: Message from p1
+            //p3 received: Message from p1
+
+            Console.ReadKey();
 
             return true;
         }

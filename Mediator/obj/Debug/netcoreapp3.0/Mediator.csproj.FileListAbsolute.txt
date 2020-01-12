@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\bin\Debug\netcoreapp3.0\Mediator.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\bin\Debug\netcoreapp3.0\Mediator.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\bin\Debug\netcoreapp3.0\Mediator.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\obj\Debug\netcoreapp3.0\Mediator.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\obj\Debug\netcoreapp3.0\Mediator.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\obj\Debug\netcoreapp3.0\Mediator.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Mediator\obj\Debug\netcoreapp3.0\Mediator.pdb

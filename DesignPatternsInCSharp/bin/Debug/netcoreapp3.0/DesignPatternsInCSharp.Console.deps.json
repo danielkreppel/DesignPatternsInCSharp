@@ -18,6 +18,7 @@
           "Facade": "1.0.0",
           "Factory": "1.0.0",
           "Iterator": "1.0.0",
+          "Mediator": "1.0.0",
           "Memento": "1.0.0",
           "Prototype": "1.0.0",
           "Proxy": "1.0.0"
@@ -74,6 +75,11 @@
       "Iterator/1.0.0": {
         "runtime": {
           "Iterator.dll": {}
+        }
+      },
+      "Mediator/1.0.0": {
+        "runtime": {
+          "Mediator.dll": {}
         }
       },
       "Memento/1.0.0": {
@@ -145,6 +151,11 @@
       "sha512": ""
     },
     "Iterator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mediator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

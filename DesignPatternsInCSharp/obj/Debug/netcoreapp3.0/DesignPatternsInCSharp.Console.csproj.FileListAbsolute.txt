@@ -36,3 +36,5 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatter
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Command.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Iterator.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Iterator.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Mediator.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Mediator.pdb
