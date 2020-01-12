@@ -16,3 +16,4 @@ Design Patterns:
 - Chain of Responsibility
 - Command
 - Iterator
+- Mediator
