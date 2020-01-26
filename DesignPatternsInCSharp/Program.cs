@@ -21,6 +21,9 @@ using CommandPattern.Abstract;
 using IteratorPattern.Concrete;
 using MediatorPattern.Abstract;
 using MediatorPattern.Concrete;
+using ObserverPattern.Abstract;
+using ObserverPattern.Concrete;
+using System.Collections.Generic;
 
 namespace DesignPatternsInCSharp
 {
@@ -32,7 +35,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 15)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 16)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -55,11 +58,11 @@ namespace DesignPatternsInCSharp
                 "12" => TestCommandPattern(),
                 "13" => TestIteratorPattern(),
                 "14" => TestMediatorPattern(),
-                   _ => false,
+                "15" => TestObserverPattern(),
+                _ => false,
             };
 
             Console.ReadKey();
-
         }
 
         static string ChooseDesignPattern()
@@ -79,7 +82,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("12 - Command");
             Console.WriteLine("13 - Iterator");
             Console.WriteLine("14 - Mediator");
-            Console.WriteLine("15 - EXIT!");
+            Console.WriteLine("15 - Observer");
+            Console.WriteLine("16 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -335,7 +339,7 @@ namespace DesignPatternsInCSharp
             return true;
         }
 
-        public static bool TestCommandPattern()
+        static bool TestCommandPattern()
         {
             Console.WriteLine("TESTING THE COMMAND DESIGN PATTERN: ");
 
@@ -349,7 +353,7 @@ namespace DesignPatternsInCSharp
             return true;
         }
 
-        public static bool TestIteratorPattern()
+        static bool TestIteratorPattern()
         {
             Console.WriteLine("TESTING THE ITERATOR DESIGN PATTERN: ");
 
@@ -377,7 +381,7 @@ namespace DesignPatternsInCSharp
             return true;
         }
 
-        public static bool TestMediatorPattern()
+        static bool TestMediatorPattern()
         {
             Console.WriteLine("TESTING THE MEDIATOR DESIGN PATTERN: ");
 
@@ -394,6 +398,33 @@ namespace DesignPatternsInCSharp
             //Output
             //p2 received: Message from p1
             //p3 received: Message from p1
+
+            Console.ReadKey();
+
+            return true;
+        }
+
+        static bool TestObserverPattern()
+        {
+            Console.WriteLine("TESTING THE OBSERVER DESIGN PATTERN: ");
+
+            //The subject that will be observed
+            Subject subject = new ConcreteSubject("ABC");
+
+            //Attaching 3 observers
+            subject.AttachRange(new List<Observer>{
+              new ConcreteObserver("o1"),
+              new ConcreteObserver("o2"),
+              new ConcreteObserver("o3")
+          });
+
+            //This will trigger the notification to the observers
+            subject.SetState("XYZ");
+
+            //Output:
+            //Observer o1 notified. New subject state: XYZ
+            //Observer o2 notified. New subject state: XYZ
+            //Observer o3 notified. New subject state: XYZ
 
             Console.ReadKey();
 

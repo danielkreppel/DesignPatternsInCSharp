@@ -20,6 +20,7 @@
           "Iterator": "1.0.0",
           "Mediator": "1.0.0",
           "Memento": "1.0.0",
+          "Observer": "1.0.0",
           "Prototype": "1.0.0",
           "Proxy": "1.0.0"
         },
@@ -85,6 +86,11 @@
       "Memento/1.0.0": {
         "runtime": {
           "Memento.dll": {}
+        }
+      },
+      "Observer/1.0.0": {
+        "runtime": {
+          "Observer.dll": {}
         }
       },
       "Prototype/1.0.0": {
@@ -161,6 +167,11 @@
       "sha512": ""
     },
     "Memento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Observer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

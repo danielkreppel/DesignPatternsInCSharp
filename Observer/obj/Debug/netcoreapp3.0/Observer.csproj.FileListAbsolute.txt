@@ -1,0 +1,8 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\bin\Debug\netcoreapp3.0\Observer.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\bin\Debug\netcoreapp3.0\Observer.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\bin\Debug\netcoreapp3.0\Observer.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\obj\Debug\netcoreapp3.0\Observer.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\obj\Debug\netcoreapp3.0\Observer.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\obj\Debug\netcoreapp3.0\Observer.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\obj\Debug\netcoreapp3.0\Observer.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Observer\obj\Debug\netcoreapp3.0\Observer.pdb
