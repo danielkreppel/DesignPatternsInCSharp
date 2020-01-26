@@ -17,3 +17,4 @@ Design Patterns:
 - Command
 - Iterator
 - Mediator
+- Observer
