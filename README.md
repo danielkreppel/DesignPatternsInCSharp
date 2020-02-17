@@ -18,3 +18,4 @@ Design Patterns:
 - Iterator
 - Mediator
 - Observer
+- State
