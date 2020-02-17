@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Prototype\Prototype.csproj" />
     <ProjectReference Include="..\Proxy\Proxy.csproj" />
+    <ProjectReference Include="..\State\State.csproj" />
   </ItemGroup>
 
 </Project>

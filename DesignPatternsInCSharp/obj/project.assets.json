@@ -151,6 +151,16 @@
         "runtime": {
           "bin/placeholder/Proxy.dll": {}
         }
+      },
+      "State/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/State.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/State.dll": {}
+        }
       }
     }
   },
@@ -229,6 +239,11 @@
       "type": "project",
       "path": "../Proxy/Proxy.csproj",
       "msbuildProject": "../Proxy/Proxy.csproj"
+    },
+    "State/1.0.0": {
+      "type": "project",
+      "path": "../State/State.csproj",
+      "msbuildProject": "../State/State.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -247,7 +262,8 @@
       "Memento >= 1.0.0",
       "Observer >= 1.0.0",
       "Prototype >= 1.0.0",
-      "Proxy >= 1.0.0"
+      "Proxy >= 1.0.0",
+      "State >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -326,6 +342,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Proxy\\Proxy.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Proxy\\Proxy.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\State\\State.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\State\\State.csproj"
             }
           }
         }

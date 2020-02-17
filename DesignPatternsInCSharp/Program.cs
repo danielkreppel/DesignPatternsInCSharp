@@ -1,4 +1,5 @@
-﻿using AdapterPattern.Abstract;
+﻿#region References
+using AdapterPattern.Abstract;
 using AdapterPattern.Concrete;
 using Bridge.Concrete;
 using Builder.Abstract;
@@ -24,6 +25,8 @@ using MediatorPattern.Concrete;
 using ObserverPattern.Abstract;
 using ObserverPattern.Concrete;
 using System.Collections.Generic;
+using StatePattern.Concrete;
+#endregion
 
 namespace DesignPatternsInCSharp
 {
@@ -35,7 +38,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 16)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 17)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -59,6 +62,7 @@ namespace DesignPatternsInCSharp
                 "13" => TestIteratorPattern(),
                 "14" => TestMediatorPattern(),
                 "15" => TestObserverPattern(),
+                "16" => TestStatePattern(),
                 _ => false,
             };
 
@@ -83,7 +87,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("13 - Iterator");
             Console.WriteLine("14 - Mediator");
             Console.WriteLine("15 - Observer");
-            Console.WriteLine("16 - EXIT!");
+            Console.WriteLine("16 - State");
+            Console.WriteLine("17 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -416,7 +421,7 @@ namespace DesignPatternsInCSharp
               new ConcreteObserver("o1"),
               new ConcreteObserver("o2"),
               new ConcreteObserver("o3")
-          });
+            });
 
             //This will trigger the notification to the observers
             subject.SetState("XYZ");
@@ -427,6 +432,28 @@ namespace DesignPatternsInCSharp
             //Observer o3 notified. New subject state: XYZ
 
             Console.ReadKey();
+
+            return true;
+        }
+
+        static bool TestStatePattern()
+        {
+            Console.WriteLine("TESTING THE STATE DESIGN PATTERN: ");
+
+            var comm1 = new CommunicationState1();
+            Context context = new Context(comm1);
+
+            context.Request();
+            context.Request();
+            comm1.SimulateConnectionLoss();
+            context.Request();
+            context.Request();
+
+            //Output
+            //Using communication object: CommState1
+            //Using communication object: CommState1
+            //Using communication object: CommState2
+            //Using communication object: CommState2
 
             return true;
         }

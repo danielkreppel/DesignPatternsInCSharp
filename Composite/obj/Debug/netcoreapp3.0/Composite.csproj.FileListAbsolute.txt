@@ -5,4 +5,3 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Composite\ob
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Composite\obj\Debug\netcoreapp3.0\Composite.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Composite\obj\Debug\netcoreapp3.0\Composite.pdb
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Composite\obj\Debug\netcoreapp3.0\Composite.csprojAssemblyReference.cache

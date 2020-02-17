@@ -22,7 +22,8 @@
           "Memento": "1.0.0",
           "Observer": "1.0.0",
           "Prototype": "1.0.0",
-          "Proxy": "1.0.0"
+          "Proxy": "1.0.0",
+          "State": "1.0.0"
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
@@ -101,6 +102,11 @@
       "Proxy/1.0.0": {
         "runtime": {
           "Proxy.dll": {}
+        }
+      },
+      "State/1.0.0": {
+        "runtime": {
+          "State.dll": {}
         }
       }
     }
@@ -182,6 +188,11 @@
       "sha512": ""
     },
     "Proxy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "State/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
