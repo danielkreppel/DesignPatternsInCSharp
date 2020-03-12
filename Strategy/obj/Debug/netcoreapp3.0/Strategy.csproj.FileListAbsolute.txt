@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.0\Strategy.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.0\Strategy.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\bin\Debug\netcoreapp3.0\Strategy.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\bin\Debug\netcoreapp3.0\Strategy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\bin\Debug\netcoreapp3.0\Strategy.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.0\Strategy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.0\Strategy.pdb

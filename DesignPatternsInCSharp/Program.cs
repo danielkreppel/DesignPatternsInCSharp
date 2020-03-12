@@ -26,6 +26,9 @@ using ObserverPattern.Abstract;
 using ObserverPattern.Concrete;
 using System.Collections.Generic;
 using StatePattern.Concrete;
+using StrategyPattern.Abstract;
+using StrategyPattern.Concrete;
+using StrategyPattern.Enum;
 #endregion
 
 namespace DesignPatternsInCSharp
@@ -38,7 +41,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 17)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 18)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -63,6 +66,7 @@ namespace DesignPatternsInCSharp
                 "14" => TestMediatorPattern(),
                 "15" => TestObserverPattern(),
                 "16" => TestStatePattern(),
+                "17" => TestStrategyPattern(),
                 _ => false,
             };
 
@@ -88,7 +92,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("14 - Mediator");
             Console.WriteLine("15 - Observer");
             Console.WriteLine("16 - State");
-            Console.WriteLine("17 - EXIT!");
+            Console.WriteLine("17 - Strategy");
+            Console.WriteLine("18 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -458,5 +463,22 @@ namespace DesignPatternsInCSharp
             return true;
         }
 
+        static bool TestStrategyPattern()
+        {
+            Console.WriteLine("TESTING THE STRATEGY DESIGN PATTERN: ");
+
+            var factory = new StrategyFactory();
+            IStrategy strategy = factory.GetStrategy(StrategyEnum.Algorithms.Algorithm1);
+            strategy.ExecuteAlgorithm("value 1");
+            //Output
+            //Executing Algorithm 1 for input: value 1
+
+            strategy = factory.GetStrategy(StrategyEnum.Algorithms.Algorithm2);
+            strategy.ExecuteAlgorithm("value 1");
+            //Output
+            //Executing Algorithm 2 for input: value 1
+
+            return true;
+        }
     }
 }

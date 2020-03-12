@@ -5,3 +5,4 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Decorator\bi
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Decorator\bin\Debug\netcoreapp3.0\Decorator.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Decorator\obj\Debug\netcoreapp3.0\Decorator.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Decorator\obj\Debug\netcoreapp3.0\Decorator.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Decorator\obj\Debug\netcoreapp3.0\Decorator.csprojAssemblyReference.cache

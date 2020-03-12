@@ -5,3 +5,4 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Adapter\obj\
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Adapter\obj\Debug\netcoreapp3.0\Adapter.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Adapter\obj\Debug\netcoreapp3.0\Adapter.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Adapter\obj\Debug\netcoreapp3.0\Adapter.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Adapter\obj\Debug\netcoreapp3.0\Adapter.csprojAssemblyReference.cache

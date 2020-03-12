@@ -23,7 +23,8 @@
           "Observer": "1.0.0",
           "Prototype": "1.0.0",
           "Proxy": "1.0.0",
-          "State": "1.0.0"
+          "State": "1.0.0",
+          "Strategy": "1.0.0"
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
@@ -107,6 +108,11 @@
       "State/1.0.0": {
         "runtime": {
           "State.dll": {}
+        }
+      },
+      "Strategy/1.0.0": {
+        "runtime": {
+          "Strategy.dll": {}
         }
       }
     }
@@ -193,6 +199,11 @@
       "sha512": ""
     },
     "State/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Strategy/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

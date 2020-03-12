@@ -1,0 +1,3 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.1\Strategy.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.1\Strategy.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Strategy\obj\Debug\netcoreapp3.1\Strategy.AssemblyInfo.cs
