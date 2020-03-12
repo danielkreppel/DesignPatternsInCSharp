@@ -19,3 +19,4 @@ Design Patterns:
 - Mediator
 - Observer
 - State
+- Strategy
