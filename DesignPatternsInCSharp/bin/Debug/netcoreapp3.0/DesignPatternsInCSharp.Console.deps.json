@@ -24,7 +24,8 @@
           "Prototype": "1.0.0",
           "Proxy": "1.0.0",
           "State": "1.0.0",
-          "Strategy": "1.0.0"
+          "Strategy": "1.0.0",
+          "TemplateMethod": "1.0.0"
         },
         "runtime": {
           "DesignPatternsInCSharp.Console.dll": {}
@@ -113,6 +114,11 @@
       "Strategy/1.0.0": {
         "runtime": {
           "Strategy.dll": {}
+        }
+      },
+      "TemplateMethod/1.0.0": {
+        "runtime": {
+          "TemplateMethod.dll": {}
         }
       }
     }
@@ -204,6 +210,11 @@
       "sha512": ""
     },
     "Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TemplateMethod/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

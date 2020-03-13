@@ -29,6 +29,8 @@ using StatePattern.Concrete;
 using StrategyPattern.Abstract;
 using StrategyPattern.Concrete;
 using StrategyPattern.Enum;
+using TemplateMethod.Abstract;
+using TemplateMethod.Concrete;
 #endregion
 
 namespace DesignPatternsInCSharp
@@ -41,7 +43,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 18)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 19)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -67,6 +69,7 @@ namespace DesignPatternsInCSharp
                 "15" => TestObserverPattern(),
                 "16" => TestStatePattern(),
                 "17" => TestStrategyPattern(),
+                "18" => TestTemplateMethodPattern(),
                 _ => false,
             };
 
@@ -93,7 +96,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("15 - Observer");
             Console.WriteLine("16 - State");
             Console.WriteLine("17 - Strategy");
-            Console.WriteLine("18 - EXIT!");
+            Console.WriteLine("18 - Template Method");
+            Console.WriteLine("19 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -477,6 +481,32 @@ namespace DesignPatternsInCSharp
             strategy.ExecuteAlgorithm("value 1");
             //Output
             //Executing Algorithm 2 for input: value 1
+
+            return true;
+        }
+
+        static bool TestTemplateMethodPattern()   
+        {
+            Console.WriteLine("TESTING THE TEMPLATE METHOD DESIGN PATTERN: ");
+
+            AbstractClass classA = new ClassA();
+            classA.TemplateMethod();
+
+            //Output:
+            //Operation 1
+            //Operation 2 defined by ClassA
+            //Operation 3
+            //Operation 4 defined by ClassA
+
+            AbstractClass classB = new ClassB();
+            classB.TemplateMethod();
+
+            //Output:
+            //Operation 1
+            //Operation 2 defined by ClassB
+            //Operation 3
+            //Operation 4 defined by ClassB
+
 
             return true;
         }

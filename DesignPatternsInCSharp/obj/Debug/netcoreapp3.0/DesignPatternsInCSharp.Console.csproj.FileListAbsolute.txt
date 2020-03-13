@@ -1,6 +1,3 @@
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.csprojAssemblyReference.cache
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.AssemblyInfoInputs.cache
-C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.exe
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.deps.json
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.runtimeconfig.json
@@ -24,6 +21,7 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatter
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Proxy.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\State.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Strategy.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\TemplateMethod.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Adapter.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Bridge.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Builder.pdb
@@ -41,6 +39,10 @@ C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatter
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Proxy.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\State.pdb
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\Strategy.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\bin\Debug\netcoreapp3.0\TemplateMethod.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.AssemblyInfo.cs
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.csproj.CopyComplete
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.dll
 C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\DesignPatternsInCSharp\obj\Debug\netcoreapp3.0\DesignPatternsInCSharp.Console.pdb

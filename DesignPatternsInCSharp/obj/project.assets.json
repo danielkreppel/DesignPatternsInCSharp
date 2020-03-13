@@ -171,6 +171,16 @@
         "runtime": {
           "bin/placeholder/Strategy.dll": {}
         }
+      },
+      "TemplateMethod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/TemplateMethod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemplateMethod.dll": {}
+        }
       }
     }
   },
@@ -259,6 +269,11 @@
       "type": "project",
       "path": "../Strategy/Strategy.csproj",
       "msbuildProject": "../Strategy/Strategy.csproj"
+    },
+    "TemplateMethod/1.0.0": {
+      "type": "project",
+      "path": "../TemplateMethod/TemplateMethod.csproj",
+      "msbuildProject": "../TemplateMethod/TemplateMethod.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -279,7 +294,8 @@
       "Prototype >= 1.0.0",
       "Proxy >= 1.0.0",
       "State >= 1.0.0",
-      "Strategy >= 1.0.0"
+      "Strategy >= 1.0.0",
+      "TemplateMethod >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -364,6 +380,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Strategy\\Strategy.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Strategy\\Strategy.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\TemplateMethod\\TemplateMethod.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\TemplateMethod\\TemplateMethod.csproj"
             }
           }
         }

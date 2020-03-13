@@ -1,0 +1,7 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.pdb
