@@ -21,3 +21,4 @@ Design Patterns:
 - State
 - Strategy
 - Template Method
+- Visitor
