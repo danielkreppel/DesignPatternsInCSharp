@@ -1,0 +1,8 @@
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\bin\Debug\netcoreapp3.1\Visitor.deps.json
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\bin\Debug\netcoreapp3.1\Visitor.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\bin\Debug\netcoreapp3.1\Visitor.pdb
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\obj\Debug\netcoreapp3.1\Visitor.csprojAssemblyReference.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\obj\Debug\netcoreapp3.1\Visitor.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\obj\Debug\netcoreapp3.1\Visitor.AssemblyInfo.cs
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\obj\Debug\netcoreapp3.1\Visitor.dll
+C:\Users\Pc\Documents\Desenvolvimento\GitHub\DesignPatternsInCSharp\Visitor\obj\Debug\netcoreapp3.1\Visitor.pdb

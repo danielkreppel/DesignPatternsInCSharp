@@ -181,6 +181,16 @@
         "runtime": {
           "bin/placeholder/TemplateMethod.dll": {}
         }
+      },
+      "Visitor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Visitor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Visitor.dll": {}
+        }
       }
     }
   },
@@ -274,6 +284,11 @@
       "type": "project",
       "path": "../TemplateMethod/TemplateMethod.csproj",
       "msbuildProject": "../TemplateMethod/TemplateMethod.csproj"
+    },
+    "Visitor/1.0.0": {
+      "type": "project",
+      "path": "../Visitor/Visitor.csproj",
+      "msbuildProject": "../Visitor/Visitor.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -295,7 +310,8 @@
       "Proxy >= 1.0.0",
       "State >= 1.0.0",
       "Strategy >= 1.0.0",
-      "TemplateMethod >= 1.0.0"
+      "TemplateMethod >= 1.0.0",
+      "Visitor >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -383,6 +399,9 @@
             },
             "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\TemplateMethod\\TemplateMethod.csproj": {
               "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\TemplateMethod\\TemplateMethod.csproj"
+            },
+            "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Visitor\\Visitor.csproj": {
+              "projectPath": "C:\\Users\\Pc\\Documents\\Desenvolvimento\\GitHub\\DesignPatternsInCSharp\\Visitor\\Visitor.csproj"
             }
           }
         }

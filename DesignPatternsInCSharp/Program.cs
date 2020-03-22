@@ -31,6 +31,8 @@ using StrategyPattern.Concrete;
 using StrategyPattern.Enum;
 using TemplateMethod.Abstract;
 using TemplateMethod.Concrete;
+using VisitorPattern;
+using VisitorPattern.Concrete;
 #endregion
 
 namespace DesignPatternsInCSharp
@@ -43,7 +45,7 @@ namespace DesignPatternsInCSharp
 
             string option = ChooseDesignPattern();
 
-            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 19)
+            while (!int.TryParse(option, out _) || int.Parse(option) < 1 || int.Parse(option) > 20)
             {
                 Console.WriteLine("Invalid option.");
 
@@ -70,6 +72,7 @@ namespace DesignPatternsInCSharp
                 "16" => TestStatePattern(),
                 "17" => TestStrategyPattern(),
                 "18" => TestTemplateMethodPattern(),
+                "19" => TestVisitorPattern(),
                 _ => false,
             };
 
@@ -97,7 +100,8 @@ namespace DesignPatternsInCSharp
             Console.WriteLine("16 - State");
             Console.WriteLine("17 - Strategy");
             Console.WriteLine("18 - Template Method");
-            Console.WriteLine("19 - EXIT!");
+            Console.WriteLine("19 - Visitor");
+            Console.WriteLine("20 - EXIT!");
 
             return Console.ReadLine();
         }
@@ -507,6 +511,30 @@ namespace DesignPatternsInCSharp
             //Operation 3
             //Operation 4 defined by ClassB
 
+
+            return true;
+        }
+
+        static bool TestVisitorPattern()
+        {
+            Console.WriteLine("TESTING THE VISITOR DESIGN PATTERN: ");
+
+            ObjectStructure o = new ObjectStructure();
+            o.Attach(new Element1());
+            o.Attach(new Element2());
+
+            var v1 = new Visitor1();
+            var v2 = new Visitor2();
+
+            o.Accept(v1);
+            //Output:
+            //Element1 visited by Visitor1
+            //Element2 visited by Visitor1
+
+            o.Accept(v2);
+            //Output:
+            //Element1 visited by Visitor2 with override behaviour
+            //Element2 visited by Visitor2 with override behaviour
 
             return true;
         }
