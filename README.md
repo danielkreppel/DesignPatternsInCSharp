@@ -1,6 +1,7 @@
-This is a console application with examples of design patterns in C# (.Net Core 3.0)
+# Design Patterns in C# (.Net Core 3.0)
+###### This is a console application with examples of design patterns in C# 
 
-Design Patterns:
+## Design Patterns included:
 
 - Singleton
 - Factory
